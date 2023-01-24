@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CalcAPI",
+    "\\CalcAPI\\Controllers",
+    "\\CalcAPI\\Models",
+    "\\CalcAPI\\Services"
+  ],
+  "SelectedNode": "\\CalcAPI\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

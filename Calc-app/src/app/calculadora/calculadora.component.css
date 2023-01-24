@@ -1,0 +1,21 @@
+.col{
+    width: 45px;
+}
+
+button{
+    border-radius: 0;
+    width: 45px;
+    padding: 0 auto;
+}
+
+input{ 
+    position:relative;
+    width: 16.5%;
+}
+
+.container{
+    position: relative;
+    margin-top:100px;
+    top: 50%;
+    left: 40%;
+}
