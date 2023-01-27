@@ -596,11 +596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\susilva\\Documents\\Calc\\CalcAPI\\CalcAPI.csproj",
+      "projectUniqueName": "c:\\Users\\susilva\\Documents\\CalcProject\\CalcAPI\\CalcAPI.csproj",
       "projectName": "CalcAPI",
-      "projectPath": "c:\\Users\\susilva\\Documents\\Calc\\CalcAPI\\CalcAPI.csproj",
+      "projectPath": "c:\\Users\\susilva\\Documents\\CalcProject\\CalcAPI\\CalcAPI.csproj",
       "packagesPath": "C:\\Users\\susilva\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\susilva\\Documents\\Calc\\CalcAPI\\obj\\",
+      "outputPath": "c:\\Users\\susilva\\Documents\\CalcProject\\CalcAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -671,7 +671,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

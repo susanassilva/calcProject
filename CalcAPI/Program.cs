@@ -3,8 +3,9 @@ using CalcAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options => options.AddPolicy("CorsPolicy", builder => { builder.AllowAnyHeader(); builder.AllowAnyMethod(); builder.AllowAnyOrigin(); }));
 
-builder.Services.AddControllers().AddJsonOptions(options=> 
+builder.Services.AddControllers().AddJsonOptions(options =>
     options.JsonSerializerOptions
         .ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
@@ -23,6 +24,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("CorsPolicy");
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -30,3 +33,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

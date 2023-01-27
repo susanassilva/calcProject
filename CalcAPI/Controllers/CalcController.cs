@@ -30,17 +30,12 @@ namespace CalcAPI.Controllers{
                 return BadRequest("erro");
         }
 
-        [HttpDelete]
-        public IActionResult ClearInput(){
-            return Ok("delete");
-        }
-
-        [HttpPost("showhistory")]
+        [HttpGet]
         public List<Calc> ShowHistory(){
             return _history.ShowHistory();
         }
 
-        [HttpDelete("clearhistory")]
+        [HttpDelete]
         public IActionResult DeleteHistory(){
             _history.ClearHistory();
             return Ok("Clear");
